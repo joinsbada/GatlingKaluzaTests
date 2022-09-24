@@ -26,7 +26,7 @@ Git clone this repo and run this command from the project dir
 ```
 
 ### Dockerimage for continues performance tests on pods
-Every time we add tests, a new docker image will be published onto central repository so as the [image](https://github.com/joinsbada/GatlingKaluzaTests/blob/main/Dockerfile) can be broadcasted onto different pods for running performance tests. (Stress, Load, Scalability tests )
+Every time we add tests, a new docker image will be published onto [central repository](https://github.com/joinsbada/GatlingKaluzaTests/blob/main/src/test/java/mock/Screenshot%202022-09-24%20at%203.19.04%20PM.png) so as the [image](https://github.com/joinsbada/GatlingKaluzaTests/blob/main/Dockerfile) can be broadcasted onto different pods for running performance tests. (Stress, Load, Scalability tests )
 
 ## Gatling Test Report
 Detailed [Gatling test report](https://github.com/joinsbada/GatlingKaluzaTests/blob/main/target/gatling/catskaratesimulation-20220924131355480.zip) under the /target/gatling/<runId>/index.html folder, which will be auto created once you run the test from command line.
