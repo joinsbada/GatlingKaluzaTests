@@ -20,7 +20,13 @@ Java 1.8, Maven, Gatling, Scala, karate
 * Karate Core 1.3 or later
 
 ## Setting up Locally
-Git clone this repo and run this command from the project dir
+
+Git clone this repo
+```bash
+  git clone https://github.com/joinsbada/GatlingKaluzaTests.git
+```
+
+Run this command from the project dir GatlingKaluzaTests
 ```bash
   mvn clean test-compile gatling:test
 ```
@@ -38,6 +44,6 @@ You can right click and open the  index.html in any browser for detailed informa
 * scala barebone template are used to setup simulators, however we can leverage JMeter agents can be leveraged alternatively
 * Code can be better modularized and chunked fro reusability standpoint
 * TFL tests can fail when tested continuously due API is limited to 50 requests a minute
-* Idea was to establish speed, scalability, and stability to save developers time
+* This project showcase limited and bare minimum capabilities, though it supports advanced functionality 
 
 
