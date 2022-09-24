@@ -37,7 +37,7 @@ You can right click and open the  index.html in any browser for detailed informa
 * Sensitive credentials for hub.docker.com on Maven POM.xml is hardcoded which can be replaced with a secret storage services like Password manager applications like OpenID or SSO
 * scala barebone template are used to setup simulators, however we can leverage JMeter agents can be leveraged alternatively
 * Code can be better modularized and chunked fro reusability standpoint
-* TFL tests can fail when tested continuously due to API Rate limit (5000 req per user) from provider standpoint
+* TFL tests can fail when tested continuously due API is limited to 50 requests a minute
 * Idea was to establish speed, scalability, and stability to save developers time
 
 
