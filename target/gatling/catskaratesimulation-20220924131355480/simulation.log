@@ -1,0 +1,71 @@
+RUN	mock.CatsKarateSimulation	catskaratesimulation	1664025235480	 	3.7.4
+USER	create	START	1664025235537
+REQUEST		GET /journey/journeyresults/Victoria/to/Paddington?mode=bus%2Ctube%2Ccoach&dateTime=2022-10-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Easy&walkingSpeed=Slow&dateTimeType=Arriving	1664025235711	1664025235836	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Blackfriars?mode=tube%2Ccoach&dateTime=2022-11-22T11%3A15%3A00&journeyPreference=LeastInterchange&bikeProficiency=Moderate&walkingSpeed=Average&dateTimeType=Departing	1664025235867	1664025235939	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Vauxhall?mode=tube%2Cbus&dateTime=2022-07-22T10%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Arriving	1664025235952	1664025236019	OK	 
+USER	create	START	1664025236030
+REQUEST		GET /journey/journeyresults/Victoria/to/Farringdon?mode=tube%2Ccoach&dateTime=2022-12-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Departing	1664025236032	1664025236102	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Paddington?mode=bus%2Ctube%2Ccoach&dateTime=2022-10-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Easy&walkingSpeed=Slow&dateTimeType=Arriving	1664025236064	1664025236134	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Whitechapel?mode=coach%2Cnational-rail&dateTime=2022-10-22T07%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Moderate&walkingSpeed=Slow&dateTimeType=Arriving	1664025236115	1664025236197	OK	 
+USER	create	END	1664025236201
+REQUEST		GET /journey/journeyresults/Victoria/to/Blackfriars?mode=tube%2Ccoach&dateTime=2022-11-22T11%3A15%3A00&journeyPreference=LeastInterchange&bikeProficiency=Moderate&walkingSpeed=Average&dateTimeType=Departing	1664025236147	1664025236214	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Vauxhall?mode=tube%2Cbus&dateTime=2022-07-22T10%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Arriving	1664025236223	1664025236325	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Farringdon?mode=tube%2Ccoach&dateTime=2022-12-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Departing	1664025236343	1664025236411	OK	 
+USER	create	START	1664025236531
+REQUEST		GET /journey/journeyresults/Victoria/to/Whitechapel?mode=coach%2Cnational-rail&dateTime=2022-10-22T07%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Moderate&walkingSpeed=Slow&dateTimeType=Arriving	1664025236419	1664025236720	OK	 
+USER	create	END	1664025236723
+USER	create	START	1664025237031
+REQUEST		GET /journey/journeyresults/Victoria/to/Paddington?mode=bus%2Ctube%2Ccoach&dateTime=2022-10-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Easy&walkingSpeed=Slow&dateTimeType=Arriving	1664025236559	1664025237083	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Paddington?mode=bus%2Ctube%2Ccoach&dateTime=2022-10-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Easy&walkingSpeed=Slow&dateTimeType=Arriving	1664025237057	1664025237162	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Blackfriars?mode=tube%2Ccoach&dateTime=2022-11-22T11%3A15%3A00&journeyPreference=LeastInterchange&bikeProficiency=Moderate&walkingSpeed=Average&dateTimeType=Departing	1664025237096	1664025237172	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Blackfriars?mode=tube%2Ccoach&dateTime=2022-11-22T11%3A15%3A00&journeyPreference=LeastInterchange&bikeProficiency=Moderate&walkingSpeed=Average&dateTimeType=Departing	1664025237176	1664025237277	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Vauxhall?mode=tube%2Cbus&dateTime=2022-07-22T10%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Arriving	1664025237189	1664025237298	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Vauxhall?mode=tube%2Cbus&dateTime=2022-07-22T10%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Arriving	1664025237288	1664025237373	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Farringdon?mode=tube%2Ccoach&dateTime=2022-12-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Departing	1664025237311	1664025237396	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Farringdon?mode=tube%2Ccoach&dateTime=2022-12-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Departing	1664025237407	1664025237478	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Whitechapel?mode=coach%2Cnational-rail&dateTime=2022-10-22T07%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Moderate&walkingSpeed=Slow&dateTimeType=Arriving	1664025237423	1664025237497	OK	 
+USER	create	END	1664025237500
+USER	create	START	1664025237532
+REQUEST		GET /journey/journeyresults/Victoria/to/Whitechapel?mode=coach%2Cnational-rail&dateTime=2022-10-22T07%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Moderate&walkingSpeed=Slow&dateTimeType=Arriving	1664025237487	1664025237563	OK	 
+USER	create	END	1664025237566
+REQUEST		GET /journey/journeyresults/Victoria/to/Paddington?mode=bus%2Ctube%2Ccoach&dateTime=2022-10-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Easy&walkingSpeed=Slow&dateTimeType=Arriving	1664025237553	1664025237622	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Blackfriars?mode=tube%2Ccoach&dateTime=2022-11-22T11%3A15%3A00&journeyPreference=LeastInterchange&bikeProficiency=Moderate&walkingSpeed=Average&dateTimeType=Departing	1664025237634	1664025237707	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Vauxhall?mode=tube%2Cbus&dateTime=2022-07-22T10%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Arriving	1664025237717	1664025237913	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Farringdon?mode=tube%2Ccoach&dateTime=2022-12-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Departing	1664025237920	1664025237984	OK	 
+USER	create	START	1664025238025
+REQUEST		GET /journey/journeyresults/Victoria/to/Whitechapel?mode=coach%2Cnational-rail&dateTime=2022-10-22T07%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Moderate&walkingSpeed=Slow&dateTimeType=Arriving	1664025237990	1664025238085	OK	 
+USER	create	END	1664025238087
+REQUEST		GET /journey/journeyresults/Victoria/to/Paddington?mode=bus%2Ctube%2Ccoach&dateTime=2022-10-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Easy&walkingSpeed=Slow&dateTimeType=Arriving	1664025238035	1664025238111	OK	 
+USER	create	START	1664025238526
+REQUEST		GET /journey/journeyresults/Victoria/to/Paddington?mode=bus%2Ctube%2Ccoach&dateTime=2022-10-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Easy&walkingSpeed=Slow&dateTimeType=Arriving	1664025238538	1664025238617	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Blackfriars?mode=tube%2Ccoach&dateTime=2022-11-22T11%3A15%3A00&journeyPreference=LeastInterchange&bikeProficiency=Moderate&walkingSpeed=Average&dateTimeType=Departing	1664025238119	1664025238635	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Blackfriars?mode=tube%2Ccoach&dateTime=2022-11-22T11%3A15%3A00&journeyPreference=LeastInterchange&bikeProficiency=Moderate&walkingSpeed=Average&dateTimeType=Departing	1664025238628	1664025238699	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Vauxhall?mode=tube%2Cbus&dateTime=2022-07-22T10%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Arriving	1664025238644	1664025238705	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Farringdon?mode=tube%2Ccoach&dateTime=2022-12-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Departing	1664025238710	1664025238776	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Vauxhall?mode=tube%2Cbus&dateTime=2022-07-22T10%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Arriving	1664025238705	1664025238776	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Farringdon?mode=tube%2Ccoach&dateTime=2022-12-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Departing	1664025238784	1664025238853	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Whitechapel?mode=coach%2Cnational-rail&dateTime=2022-10-22T07%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Moderate&walkingSpeed=Slow&dateTimeType=Arriving	1664025238860	1664025238934	OK	 
+USER	create	END	1664025238937
+USER	create	START	1664025239025
+REQUEST		GET /journey/journeyresults/Victoria/to/Paddington?mode=bus%2Ctube%2Ccoach&dateTime=2022-10-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Easy&walkingSpeed=Slow&dateTimeType=Arriving	1664025239040	1664025239137	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Blackfriars?mode=tube%2Ccoach&dateTime=2022-11-22T11%3A15%3A00&journeyPreference=LeastInterchange&bikeProficiency=Moderate&walkingSpeed=Average&dateTimeType=Departing	1664025239146	1664025239219	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Vauxhall?mode=tube%2Cbus&dateTime=2022-07-22T10%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Arriving	1664025239225	1664025239300	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Farringdon?mode=tube%2Ccoach&dateTime=2022-12-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Departing	1664025239306	1664025239370	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Whitechapel?mode=coach%2Cnational-rail&dateTime=2022-10-22T07%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Moderate&walkingSpeed=Slow&dateTimeType=Arriving	1664025239378	1664025239443	OK	 
+USER	create	END	1664025239445
+USER	create	START	1664025239526
+REQUEST		GET /journey/journeyresults/Victoria/to/Paddington?mode=bus%2Ctube%2Ccoach&dateTime=2022-10-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Easy&walkingSpeed=Slow&dateTimeType=Arriving	1664025239534	1664025239640	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Blackfriars?mode=tube%2Ccoach&dateTime=2022-11-22T11%3A15%3A00&journeyPreference=LeastInterchange&bikeProficiency=Moderate&walkingSpeed=Average&dateTimeType=Departing	1664025239650	1664025239711	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Vauxhall?mode=tube%2Cbus&dateTime=2022-07-22T10%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Arriving	1664025239718	1664025239830	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Whitechapel?mode=coach%2Cnational-rail&dateTime=2022-10-22T07%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Moderate&walkingSpeed=Slow&dateTimeType=Arriving	1664025238784	1664025239887	OK	 
+USER	create	END	1664025239889
+REQUEST		GET /journey/journeyresults/Victoria/to/Farringdon?mode=tube%2Ccoach&dateTime=2022-12-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Departing	1664025239836	1664025239902	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Whitechapel?mode=coach%2Cnational-rail&dateTime=2022-10-22T07%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Moderate&walkingSpeed=Slow&dateTimeType=Arriving	1664025239908	1664025239971	OK	 
+USER	create	END	1664025239973
+USER	create	START	1664025240026
+REQUEST		GET /journey/journeyresults/Victoria/to/Paddington?mode=bus%2Ctube%2Ccoach&dateTime=2022-10-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Easy&walkingSpeed=Slow&dateTimeType=Arriving	1664025240036	1664025240109	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Blackfriars?mode=tube%2Ccoach&dateTime=2022-11-22T11%3A15%3A00&journeyPreference=LeastInterchange&bikeProficiency=Moderate&walkingSpeed=Average&dateTimeType=Departing	1664025240116	1664025240178	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Vauxhall?mode=tube%2Cbus&dateTime=2022-07-22T10%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Arriving	1664025240185	1664025240250	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Farringdon?mode=tube%2Ccoach&dateTime=2022-12-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Departing	1664025240256	1664025240329	OK	 
+REQUEST		GET /journey/journeyresults/Victoria/to/Whitechapel?mode=coach%2Cnational-rail&dateTime=2022-10-22T07%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Moderate&walkingSpeed=Slow&dateTimeType=Arriving	1664025240335	1664025240395	OK	 
+USER	create	END	1664025240397

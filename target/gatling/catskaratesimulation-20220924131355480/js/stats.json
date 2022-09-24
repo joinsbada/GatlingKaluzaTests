@@ -1,0 +1,473 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 50,
+        "ok": 50,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 60,
+        "ok": 60,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 1103,
+        "ok": 1103,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 123,
+        "ok": 123,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 168,
+        "ok": 168,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 73,
+        "ok": 73,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 97,
+        "ok": 97,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 419,
+        "ok": 419,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 819,
+        "ok": 819,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 49,
+    "percentage": 98
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 1,
+    "percentage": 2
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 10.0,
+        "ok": 10.0,
+        "ko": 0
+    }
+},
+"contents": {
+"req_get--journey-jo-d2f5f": {
+        "type": "REQUEST",
+        "name": "GET /journey/journeyresults/Victoria/to/Paddington?mode=bus%2Ctube%2Ccoach&dateTime=2022-10-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Easy&walkingSpeed=Slow&dateTimeType=Arriving",
+"path": "GET /journey/journeyresults/Victoria/to/Paddington?mode=bus%2Ctube%2Ccoach&dateTime=2022-10-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Easy&walkingSpeed=Slow&dateTimeType=Arriving",
+"pathFormatted": "req_get--journey-jo-d2f5f",
+"stats": {
+    "name": "GET /journey/journeyresults/Victoria/to/Paddington?mode=bus%2Ctube%2Ccoach&dateTime=2022-10-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Easy&walkingSpeed=Slow&dateTimeType=Arriving",
+    "numberOfRequests": {
+        "total": 10,
+        "ok": 10,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 69,
+        "ok": 69,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 524,
+        "ok": 524,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 132,
+        "ok": 132,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 132,
+        "ok": 132,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 88,
+        "ok": 88,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 106,
+        "ok": 106,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 344,
+        "ok": 344,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 488,
+        "ok": 488,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 10,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 2.0,
+        "ok": 2.0,
+        "ko": 0
+    }
+}
+    },"req_get--journey-jo-52753": {
+        "type": "REQUEST",
+        "name": "GET /journey/journeyresults/Victoria/to/Blackfriars?mode=tube%2Ccoach&dateTime=2022-11-22T11%3A15%3A00&journeyPreference=LeastInterchange&bikeProficiency=Moderate&walkingSpeed=Average&dateTimeType=Departing",
+"path": "GET /journey/journeyresults/Victoria/to/Blackfriars?mode=tube%2Ccoach&dateTime=2022-11-22T11%3A15%3A00&journeyPreference=LeastInterchange&bikeProficiency=Moderate&walkingSpeed=Average&dateTimeType=Departing",
+"pathFormatted": "req_get--journey-jo-52753",
+"stats": {
+    "name": "GET /journey/journeyresults/Victoria/to/Blackfriars?mode=tube%2Ccoach&dateTime=2022-11-22T11%3A15%3A00&journeyPreference=LeastInterchange&bikeProficiency=Moderate&walkingSpeed=Average&dateTimeType=Departing",
+    "numberOfRequests": {
+        "total": 10,
+        "ok": 10,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 61,
+        "ok": 61,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 516,
+        "ok": 516,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 117,
+        "ok": 117,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 133,
+        "ok": 133,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 73,
+        "ok": 73,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 75,
+        "ok": 75,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 329,
+        "ok": 329,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 479,
+        "ok": 479,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 10,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 2.0,
+        "ok": 2.0,
+        "ko": 0
+    }
+}
+    },"req_get--journey-jo-6ba4d": {
+        "type": "REQUEST",
+        "name": "GET /journey/journeyresults/Victoria/to/Vauxhall?mode=tube%2Cbus&dateTime=2022-07-22T10%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Arriving",
+"path": "GET /journey/journeyresults/Victoria/to/Vauxhall?mode=tube%2Cbus&dateTime=2022-07-22T10%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Arriving",
+"pathFormatted": "req_get--journey-jo-6ba4d",
+"stats": {
+    "name": "GET /journey/journeyresults/Victoria/to/Vauxhall?mode=tube%2Cbus&dateTime=2022-07-22T10%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Arriving",
+    "numberOfRequests": {
+        "total": 10,
+        "ok": 10,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 61,
+        "ok": 61,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 196,
+        "ok": 196,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 94,
+        "ok": 94,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 38,
+        "ok": 38,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 80,
+        "ok": 80,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 107,
+        "ok": 107,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 158,
+        "ok": 158,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 188,
+        "ok": 188,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 10,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 2.0,
+        "ok": 2.0,
+        "ko": 0
+    }
+}
+    },"req_get--journey-jo-a767b": {
+        "type": "REQUEST",
+        "name": "GET /journey/journeyresults/Victoria/to/Farringdon?mode=tube%2Ccoach&dateTime=2022-12-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Departing",
+"path": "GET /journey/journeyresults/Victoria/to/Farringdon?mode=tube%2Ccoach&dateTime=2022-12-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Departing",
+"pathFormatted": "req_get--journey-jo-a767b",
+"stats": {
+    "name": "GET /journey/journeyresults/Victoria/to/Farringdon?mode=tube%2Ccoach&dateTime=2022-12-22T13%3A15%3A00&journeyPreference=LeastTime&bikeProficiency=Fast&walkingSpeed=Fast&dateTimeType=Departing",
+    "numberOfRequests": {
+        "total": 10,
+        "ok": 10,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 64,
+        "ok": 64,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 85,
+        "ok": 85,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 70,
+        "ok": 70,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 6,
+        "ok": 6,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 69,
+        "ok": 69,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 71,
+        "ok": 71,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 80,
+        "ok": 80,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 84,
+        "ok": 84,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 10,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 2.0,
+        "ok": 2.0,
+        "ko": 0
+    }
+}
+    },"req_get--journey-jo-07c68": {
+        "type": "REQUEST",
+        "name": "GET /journey/journeyresults/Victoria/to/Whitechapel?mode=coach%2Cnational-rail&dateTime=2022-10-22T07%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Moderate&walkingSpeed=Slow&dateTimeType=Arriving",
+"path": "GET /journey/journeyresults/Victoria/to/Whitechapel?mode=coach%2Cnational-rail&dateTime=2022-10-22T07%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Moderate&walkingSpeed=Slow&dateTimeType=Arriving",
+"pathFormatted": "req_get--journey-jo-07c68",
+"stats": {
+    "name": "GET /journey/journeyresults/Victoria/to/Whitechapel?mode=coach%2Cnational-rail&dateTime=2022-10-22T07%3A15%3A00&journeyPreference=LeastWalking&bikeProficiency=Moderate&walkingSpeed=Slow&dateTimeType=Arriving",
+    "numberOfRequests": {
+        "total": 10,
+        "ok": 10,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 60,
+        "ok": 60,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 1103,
+        "ok": 1103,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 199,
+        "ok": 199,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 309,
+        "ok": 309,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 75,
+        "ok": 75,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 92,
+        "ok": 92,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 742,
+        "ok": 742,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 1031,
+        "ok": 1031,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 9,
+    "percentage": 90
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 1,
+    "percentage": 10
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 2.0,
+        "ok": 2.0,
+        "ko": 0
+    }
+}
+    }
+}
+
+}
