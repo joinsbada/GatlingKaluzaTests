@@ -38,6 +38,8 @@ Every time we add tests, a new docker image will be published onto [central repo
 Detailed [Gatling test report](https://github.com/joinsbada/GatlingKaluzaTests/blob/main/target/gatling/catskaratesimulation-20220924131355480.zip) under the /target/gatling/<runId>/index.html folder, which will be auto created once you run the test from command line.
 You can right click and open the  index.html in any browser for detailed information on runs.
 
+![Report sample](https://github.com/joinsbada/GatlingKaluzaTests/blob/main/target/Screenshot%202022-09-25%20at%202.07.56%20AM.png)
+
 
 ## Future works
 * Sensitive credentials for hub.docker.com on Maven POM.xml is hardcoded which can be replaced with a secret storage services like Password manager applications like OpenID or SSO
